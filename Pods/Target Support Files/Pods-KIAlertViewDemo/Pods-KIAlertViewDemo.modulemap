@@ -1,0 +1,6 @@
+module Pods_KIAlertViewDemo {
+  umbrella header "Pods-KIAlertViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

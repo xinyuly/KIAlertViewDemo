@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1421ACA9827E2103D122FFDE /* libPods-KIAlertViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC84FAE639BE8329CDF62853 /* libPods-KIAlertViewDemo.a */; };
+		B739A5A921E2F9000012064F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B739A5A821E2F9000012064F /* AppDelegate.swift */; };
+		B739A5AB21E2F9000012064F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B739A5AA21E2F9000012064F /* ViewController.swift */; };
+		B739A5AE21E2F9000012064F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B739A5AC21E2F9000012064F /* Main.storyboard */; };
+		B739A5B021E2F90D0012064F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B739A5AF21E2F90D0012064F /* Assets.xcassets */; };
+		B739A5B321E2F90D0012064F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B739A5B121E2F90D0012064F /* LaunchScreen.storyboard */; };
+		B739A5D721E2F9410012064F /* KIAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B739A5D621E2F9410012064F /* KIAlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B739A5BA21E2F90D0012064F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B739A59D21E2F9000012064F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B739A5A421E2F9000012064F;
+			remoteInfo = KIAlertViewDemo;
+		};
+		B739A5C521E2F90D0012064F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B739A59D21E2F9000012064F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B739A5A421E2F9000012064F;
+			remoteInfo = KIAlertViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		319B24C844E5F25BF679F64C /* Pods-KIAlertViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIAlertViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KIAlertViewDemo/Pods-KIAlertViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B0B1CA0F75A6CD04EAD3B9E4 /* Pods-KIAlertViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIAlertViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIAlertViewDemo/Pods-KIAlertViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B739A5A521E2F9000012064F /* KIAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B739A5A821E2F9000012064F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B739A5AA21E2F9000012064F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B739A5AD21E2F9000012064F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B739A5AF21E2F90D0012064F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B739A5B221E2F90D0012064F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B739A5B421E2F90D0012064F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B739A5B921E2F90D0012064F /* KIAlertViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIAlertViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B739A5C421E2F90D0012064F /* KIAlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIAlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B739A5D621E2F9410012064F /* KIAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KIAlertView.swift; sourceTree = "<group>"; };
+		EC84FAE639BE8329CDF62853 /* libPods-KIAlertViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KIAlertViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B739A5A221E2F9000012064F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1421ACA9827E2103D122FFDE /* libPods-KIAlertViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B739A5B621E2F90D0012064F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B739A5C121E2F90D0012064F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5400F78BA725A6A53B2E0C6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0B1CA0F75A6CD04EAD3B9E4 /* Pods-KIAlertViewDemo.debug.xcconfig */,
+				319B24C844E5F25BF679F64C /* Pods-KIAlertViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B739A59C21E2F9000012064F = {
+			isa = PBXGroup;
+			children = (
+				B739A5A721E2F9000012064F /* KIAlertViewDemo */,
+				B739A5A621E2F9000012064F /* Products */,
+				5400F78BA725A6A53B2E0C6A /* Pods */,
+				B836F22F2E1D6A3DDF59FE8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B739A5A621E2F9000012064F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B739A5A521E2F9000012064F /* KIAlertViewDemo.app */,
+				B739A5B921E2F90D0012064F /* KIAlertViewDemoTests.xctest */,
+				B739A5C421E2F90D0012064F /* KIAlertViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B739A5A721E2F9000012064F /* KIAlertViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B739A5D621E2F9410012064F /* KIAlertView.swift */,
+				B739A5A821E2F9000012064F /* AppDelegate.swift */,
+				B739A5AA21E2F9000012064F /* ViewController.swift */,
+				B739A5AC21E2F9000012064F /* Main.storyboard */,
+				B739A5AF21E2F90D0012064F /* Assets.xcassets */,
+				B739A5B121E2F90D0012064F /* LaunchScreen.storyboard */,
+				B739A5B421E2F90D0012064F /* Info.plist */,
+			);
+			path = KIAlertViewDemo;
+			sourceTree = "<group>";
+		};
+		B836F22F2E1D6A3DDF59FE8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC84FAE639BE8329CDF62853 /* libPods-KIAlertViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B739A5A421E2F9000012064F /* KIAlertViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B739A5CD21E2F90D0012064F /* Build configuration list for PBXNativeTarget "KIAlertViewDemo" */;
+			buildPhases = (
+				85C56F27EA7346017BB10163 /* [CP] Check Pods Manifest.lock */,
+				B739A5A121E2F9000012064F /* Sources */,
+				B739A5A221E2F9000012064F /* Frameworks */,
+				B739A5A321E2F9000012064F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIAlertViewDemo;
+			productName = KIAlertViewDemo;
+			productReference = B739A5A521E2F9000012064F /* KIAlertViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B739A5B821E2F90D0012064F /* KIAlertViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B739A5D021E2F90D0012064F /* Build configuration list for PBXNativeTarget "KIAlertViewDemoTests" */;
+			buildPhases = (
+				B739A5B521E2F90D0012064F /* Sources */,
+				B739A5B621E2F90D0012064F /* Frameworks */,
+				B739A5B721E2F90D0012064F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B739A5BB21E2F90D0012064F /* PBXTargetDependency */,
+			);
+			name = KIAlertViewDemoTests;
+			productName = KIAlertViewDemoTests;
+			productReference = B739A5B921E2F90D0012064F /* KIAlertViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B739A5C321E2F90D0012064F /* KIAlertViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B739A5D321E2F90D0012064F /* Build configuration list for PBXNativeTarget "KIAlertViewDemoUITests" */;
+			buildPhases = (
+				B739A5C021E2F90D0012064F /* Sources */,
+				B739A5C121E2F90D0012064F /* Frameworks */,
+				B739A5C221E2F90D0012064F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B739A5C621E2F90D0012064F /* PBXTargetDependency */,
+			);
+			name = KIAlertViewDemoUITests;
+			productName = KIAlertViewDemoUITests;
+			productReference = B739A5C421E2F90D0012064F /* KIAlertViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B739A59D21E2F9000012064F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lixinyu;
+				TargetAttributes = {
+					B739A5A421E2F9000012064F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B739A5B821E2F90D0012064F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B739A5A421E2F9000012064F;
+					};
+					B739A5C321E2F90D0012064F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B739A5A421E2F9000012064F;
+					};
+				};
+			};
+			buildConfigurationList = B739A5A021E2F9000012064F /* Build configuration list for PBXProject "KIAlertViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B739A59C21E2F9000012064F;
+			productRefGroup = B739A5A621E2F9000012064F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B739A5A421E2F9000012064F /* KIAlertViewDemo */,
+				B739A5B821E2F90D0012064F /* KIAlertViewDemoTests */,
+				B739A5C321E2F90D0012064F /* KIAlertViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B739A5A321E2F9000012064F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B739A5B321E2F90D0012064F /* LaunchScreen.storyboard in Resources */,
+				B739A5B021E2F90D0012064F /* Assets.xcassets in Resources */,
+				B739A5AE21E2F9000012064F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B739A5B721E2F90D0012064F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B739A5C221E2F90D0012064F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85C56F27EA7346017BB10163 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KIAlertViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B739A5A121E2F9000012064F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B739A5AB21E2F9000012064F /* ViewController.swift in Sources */,
+				B739A5A921E2F9000012064F /* AppDelegate.swift in Sources */,
+				B739A5D721E2F9410012064F /* KIAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B739A5B521E2F90D0012064F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B739A5C021E2F90D0012064F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B739A5BB21E2F90D0012064F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B739A5A421E2F9000012064F /* KIAlertViewDemo */;
+			targetProxy = B739A5BA21E2F90D0012064F /* PBXContainerItemProxy */;
+		};
+		B739A5C621E2F90D0012064F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B739A5A421E2F9000012064F /* KIAlertViewDemo */;
+			targetProxy = B739A5C521E2F90D0012064F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B739A5AC21E2F9000012064F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B739A5AD21E2F9000012064F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B739A5B121E2F90D0012064F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B739A5B221E2F90D0012064F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B739A5CB21E2F90D0012064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B739A5CC21E2F90D0012064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B739A5CE21E2F90D0012064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B1CA0F75A6CD04EAD3B9E4 /* Pods-KIAlertViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRTB8GZJPC;
+				INFOPLIST_FILE = KIAlertViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KIAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B739A5CF21E2F90D0012064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319B24C844E5F25BF679F64C /* Pods-KIAlertViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRTB8GZJPC;
+				INFOPLIST_FILE = KIAlertViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KIAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B739A5D121E2F90D0012064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KIAlertViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KIAlertViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIAlertViewDemo.app/KIAlertViewDemo";
+			};
+			name = Debug;
+		};
+		B739A5D221E2F90D0012064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KIAlertViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KIAlertViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIAlertViewDemo.app/KIAlertViewDemo";
+			};
+			name = Release;
+		};
+		B739A5D421E2F90D0012064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KIAlertViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KIAlertViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KIAlertViewDemo;
+			};
+			name = Debug;
+		};
+		B739A5D521E2F90D0012064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KIAlertViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.KIAlertViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KIAlertViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B739A5A021E2F9000012064F /* Build configuration list for PBXProject "KIAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B739A5CB21E2F90D0012064F /* Debug */,
+				B739A5CC21E2F90D0012064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B739A5CD21E2F90D0012064F /* Build configuration list for PBXNativeTarget "KIAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B739A5CE21E2F90D0012064F /* Debug */,
+				B739A5CF21E2F90D0012064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B739A5D021E2F90D0012064F /* Build configuration list for PBXNativeTarget "KIAlertViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B739A5D121E2F90D0012064F /* Debug */,
+				B739A5D221E2F90D0012064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B739A5D321E2F90D0012064F /* Build configuration list for PBXNativeTarget "KIAlertViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B739A5D421E2F90D0012064F /* Debug */,
+				B739A5D521E2F90D0012064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B739A59D21E2F9000012064F /* Project object */;
+}
